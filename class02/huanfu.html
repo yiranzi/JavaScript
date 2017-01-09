@@ -1,0 +1,40 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="">
+	<style>
+	.test1{
+	}
+
+	</style>
+</head>
+
+<body>
+	<input type="button" value="pifu1" onclick="skin1()">
+</br>
+	<input type="button" value="pifu2" onclick="skin2()">
+</br>
+
+	<div class="test1">
+	</div>
+</body>
+<script>
+function skin1()
+{
+	console.log("skin1")
+	// document.getElementById()
+	var link = document.getElementsByTagName("link");
+		console.log(link[0].href="pifu1.css");
+		document.getElementsByTagName("input")[0].value = "cnm";
+			document.getElementsByTagName("input")[0].title="hello me"
+}
+function skin2()
+{
+	console.log("skin2");
+	var link = document.getElementsByTagName("link");
+	console.log(link[0].href="pifu2.css");
+	document.getElementsByTagName("input")[1].value = "cnm";
+
+
+}
+</script>
+</html>

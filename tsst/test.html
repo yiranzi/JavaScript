@@ -1,0 +1,45 @@
+<html>
+<head>
+  <link rel="stylesheet" type ="text/css" href="test.css"></link>
+</head>
+<body>
+  <!-- js数据类型 相加和数据转换 -->
+  <div id="div1" class="myspace">
+    <input type="text" id="txt1"></input>
+    <input type="text" id="txt2"></input>
+    <button id="btn1"></button>
+  </div>
+<!-- hover的提示框 -->
+  <div id="div2" class="myspace">
+    <button id="sure">全选</button>
+    <button id="cancel">全不选</button>
+    <button id="change">全不选</button>
+
+    <div id = "checkboxs">
+        <input type = "checkbox"/>
+        <input type = "checkbox"/>
+        <input type = "checkbox"/>
+    </div>
+
+    <input type ="text" class="test">
+  </div>
+
+<!-- function使用 -->
+  <div id="div3" class="myspace">
+
+    <div class="myborder"id="txtline"
+    onmouseout="invisible()"
+    onmouseover ="visible()">
+      <script>console.log(txtline.onmouseout);</script>
+      <input type = "checkbox" />
+      <p class="myinline">十天内免登陆</p>
+    </div>
+    <div>
+      <p id ="tip" class="myborder myback">为了您的安全...</p>
+    </div>
+  </div>
+
+  <!-- 引用js文件 -->
+    <script type="text/javascript" src="test.js"></script>
+</body>
+</html>
