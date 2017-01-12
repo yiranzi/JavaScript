@@ -1,0 +1,35 @@
+*{
+  margin:0px;
+}
+#div1{
+
+}
+
+#div2 input{
+
+}
+
+#div2 #checkboxs input{
+  display:block;
+}
+
+#tip{
+  width: 100px;
+  height:100px;
+}
+.myinline{
+  display:inline-block;
+}
+
+.myborder{
+  border:1px solid black;
+}
+
+.myback{
+  background-color: red;
+}
+
+.myspace{
+
+  margin-bottom: 50px;
+}
