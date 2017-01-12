@@ -2,39 +2,28 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="">
 	<style>
-	.test1{
+	.myborder{
+	  border:1px solid black;
 	}
 
+	.none{
+
+	}
 	</style>
 </head>
 
 <body>
-	<input type="button" value="pifu1" onclick="skin1()">
+	<input type="button" value="pifu1" onclick="skin1()"/>
 </br>
-	<input type="button" value="pifu2" onclick="skin2()">
+	<input type="button" value="pifu2" onclick="skin2()"/>
 </br>
+<input id ="button_visi"type="button" value ="隐藏" onclick = "huanfu()"
+onmouseover = "huanfu()" onmouseout="huanfu()"/>
 
-	<div class="test1">
-	</div>
+	<div class= "myborder"id = "testdiv" >123123</div>
+	<script type = "text/javascript" src = "huanfu.js"></script>
 </body>
 <script>
-function skin1()
-{
-	console.log("skin1")
-	// document.getElementById()
-	var link = document.getElementsByTagName("link");
-		console.log(link[0].href="pifu1.css");
-		document.getElementsByTagName("input")[0].value = "cnm";
-			document.getElementsByTagName("input")[0].title="hello me"
-}
-function skin2()
-{
-	console.log("skin2");
-	var link = document.getElementsByTagName("link");
-	console.log(link[0].href="pifu2.css");
-	document.getElementsByTagName("input")[1].value = "cnm";
 
-
-}
 </script>
 </html>
